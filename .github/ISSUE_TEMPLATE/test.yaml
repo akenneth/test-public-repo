@@ -1,4 +1,10 @@
 name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
   - type: markdown
     attributes:
       value: |
@@ -54,8 +60,3 @@ name: Bug Report
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
