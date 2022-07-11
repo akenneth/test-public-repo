@@ -1,43 +1,26 @@
 name: Billing & Payments Suggestion Box Template
-
 description: Suggestions to Money Support Operations regarding Billing & Payments
-
 title: " [Date - MMM.DD/YY] - [Suggestion:Billing/Payments/Installments/Other]: Title "
-
 labels: ["Suggestion"]
-
 assignees:
-  -  -
-
+  -
 body:
   - type: markdown
-
     attributes:
       value: |
-
         **Please update the title to reflect [Date][Suggestion topic] Brief title.  Ex: [Jan. 4/22] [Payments] Change to Money Support Operations Playbook**
--  - 
   - type: dropdown
-
     id: Topic
-
     attributes:
       label: This Suggestion Pertains to
-
       description: Please indicate the product this suggestion is related to (Billing, Payments, Installments, or Other)
-
       options:
         - Billing
-
         - Payments
-
         - Installments
-
         - Other
-
     validations:
       required: true
-
   - type: textarea
     id: suggestion-summary
     attributes:
@@ -47,7 +30,6 @@ body:
       value:
     validations:
       required: true
-
   - type: textarea
     id: details
     attributes:
@@ -55,7 +37,6 @@ body:
       description: Please describe your suggestion and include any relevant links
     validations:
       required: true
-
   - type: dropdown
     id: help
     attributes:
